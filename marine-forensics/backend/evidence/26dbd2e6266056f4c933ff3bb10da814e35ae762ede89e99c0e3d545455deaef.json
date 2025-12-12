@@ -1,0 +1,17 @@
+{
+  "ship": "MV-102",
+  "event": "Engine Fire Detected",
+  "lat": 12.55,
+  "lon": 77.44,
+  "speed": 900,
+  "heading": 182.2,
+  "engineTemp": 105,
+  "engineStatus": "critical",
+  "alertLevel": "High",
+  "weather": "Storm",
+  "waveHeight": 3.1,
+  "officerOnDuty": "John Doe",
+  "systemId": "VDR-0021",
+  "remarks": "Smoke detected in engine room",
+  "time": "2025-11-17T10:00:00Z"
+}

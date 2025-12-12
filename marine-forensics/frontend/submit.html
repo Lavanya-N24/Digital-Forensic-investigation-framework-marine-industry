@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Evidence</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2>Marine Digital Forensics</h2>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="submit.html">Submit</a>
+    <a href="verify.html">Verify</a>
+    <a href="records.html">Record</a>
+    <a href="about.html">About</a>
+  </div>
+</div>
+
+<!-- MAIN PAGE WRAPPER -->
+<div class="page-container">
+
+  <!-- GLASS FORM BOX -->
+  <div class="form-box">
+
+      <div class="sample-box">
+          <h4>📌 Sample Evidence Format</h4>
+          <pre>
+{
+  "ship": "MV-101",
+  "event": "GPS Spoofing Detected",
+  "lat": 12.55,
+  "lon": 77.44,
+  "speed": 12.4,
+  "engineStatus": "Normal",
+  "alertLevel": "Medium",
+  "time": "2025-11-17T10:00:00Z"
+}
+          </pre>
+      </div>
+
+      <textarea id="log" placeholder="Enter evidence JSON"></textarea>
+
+      <button onclick="submitEvidence()">Submit Evidence</button>
+
+      <pre id="result"></pre>
+
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

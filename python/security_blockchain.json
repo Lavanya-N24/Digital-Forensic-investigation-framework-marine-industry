@@ -1,0 +1,84 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-19T19:46:40.936928+00:00",
+      "data": {
+        "type": "genesis",
+        "message": "Maritime Security Blockchain Initialized"
+      },
+      "previous_hash": "0",
+      "hash": "00c292932db914f19fde131ebffa86d7e42ee3e56aaf31748b661ce32d2378d1",
+      "nonce": 71
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-19T19:46:41.202999+00:00",
+      "data": [
+        {
+          "type": "SECURITY_ALERT",
+          "data": {
+            "message": "Suspicious IP 192.168.3.21 \u2014 fails: 2, users: 4"
+          },
+          "severity": "High",
+          "timestamp": "2025-11-19T19:46:41.202963+00:00"
+        }
+      ],
+      "previous_hash": "00c292932db914f19fde131ebffa86d7e42ee3e56aaf31748b661ce32d2378d1",
+      "hash": "00da1e578244147a48aceb155f3e037342f866d009fe6cd16a76de1990a65b1d",
+      "nonce": 451
+    },
+    {
+      "index": 2,
+      "timestamp": "2025-11-19T19:46:42.881084+00:00",
+      "data": [
+        {
+          "type": "SECURITY_ALERT",
+          "data": {
+            "message": "User david on Ship 105 had 3 consecutive failed logins"
+          },
+          "severity": "High",
+          "timestamp": "2025-11-19T19:46:42.881065+00:00"
+        }
+      ],
+      "previous_hash": "00da1e578244147a48aceb155f3e037342f866d009fe6cd16a76de1990a65b1d",
+      "hash": "00f75c75fe65e8e9aed6f519dfc24eb3f12c5ddf69e3b093741bdaa92e782d6f",
+      "nonce": 123
+    },
+    {
+      "index": 3,
+      "timestamp": "2025-11-19T19:46:44.525014+00:00",
+      "data": [
+        {
+          "type": "SECURITY_ALERT",
+          "data": {
+            "message": "User david on Ship 105 had 4 consecutive failed logins"
+          },
+          "severity": "High",
+          "timestamp": "2025-11-19T19:46:44.524976+00:00"
+        }
+      ],
+      "previous_hash": "00f75c75fe65e8e9aed6f519dfc24eb3f12c5ddf69e3b093741bdaa92e782d6f",
+      "hash": "0022f050e9a0c129069718950f4477068ed5c615141cc7d96bd5100417efd599",
+      "nonce": 10
+    },
+    {
+      "index": 4,
+      "timestamp": "2025-11-19T19:46:46.145158+00:00",
+      "data": [
+        {
+          "type": "SECURITY_ALERT",
+          "data": {
+            "message": "User charlie on Ship 104 had 3 consecutive failed logins"
+          },
+          "severity": "High",
+          "timestamp": "2025-11-19T19:46:46.145133+00:00"
+        }
+      ],
+      "previous_hash": "0022f050e9a0c129069718950f4477068ed5c615141cc7d96bd5100417efd599",
+      "hash": "00e4479c2414b3921d5a1ab67d28149ce94e388b4c2f9bc6039db733f9aebee2",
+      "nonce": 9
+    }
+  ],
+  "pending_transactions": []
+}

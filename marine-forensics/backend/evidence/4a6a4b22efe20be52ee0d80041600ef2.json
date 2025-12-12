@@ -1,0 +1,13 @@
+{
+  "ship": "MV-101",
+  "event": "GPS Spoofing Detected",
+  "lat": 12.55,
+  "lon": 77.44,
+  "speed": 8.7,
+  "engineStatus": "Overheat",
+  "alertLevel": "High",
+  "weather": "Fog",
+  "captain": "John Doe",
+  "time": "2025-11-17T10:00:00Z"
+}
+
